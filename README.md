@@ -23,10 +23,12 @@ BoundedServiceHandlerMessage.
 ההבדל בין BoundedServiceHandlerPost ל BoundedServiceHandlerMessage
 
 BoundedServiceHandlerMessage
+
 אנו צרכים להכין לנו הנדלר שיודע לקרוא את מספר ההודעה
 שנשלח אלינו ולפי זה לעשות משהו
 
 BoundedServiceHandlerPost 
+
 אנו בעצם עושים פעולות דרך הצינור
 השימוש הנכון לפי דעתי זה להשתמש בהודעות ולא בפוסט
 כמה שאפשר כי אנו לא יודעים אם מי שמחובר לשירות
